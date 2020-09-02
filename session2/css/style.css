@@ -1,0 +1,111 @@
+/* DO NOT MODIFY THE FIRST 2 LINES OF <body> declaration block.
+   You can ADD more CSS script below the 2 lines.
+*/
+body {
+    margin: 0;
+    padding: 0;
+    /* You can add more CSS script below */
+    background-color:rgb(245, 214, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Add your CSS script below */
+header {
+    background-color:yellow;
+    color: blue;  
+}
+
+header h1 {
+    margin: 0px;
+}
+
+
+.box{
+    padding: 0px 10%;
+}
+
+#navigation-bar{
+    background-color: gray;
+    padding:1px;
+
+}
+#navigation-bar ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+#navigation-bar li{
+    display: inline;  
+    margin-right: 5%;  
+}
+#navigation-bar a{
+    color:white;
+    text-decoration: none;    
+}
+
+#top-content{
+    background-color: rgb(224, 157, 80);   
+    background-image: url('../images/hyunbin_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-position-y: -70px;
+    padding: 30px 0px;
+    /* height:30%; Take note of this!! */
+    /* border: 1px solid; */
+    
+}
+
+.top-bg h1{
+    color: white;  
+    text-align: center;
+    line-height: 1.4em;
+ 
+}
+
+#main-content{
+    float:left;
+    width: 60%
+}
+
+
+#side-bar{
+    /* float:right; */
+    width: 30%;
+    overflow: auto;
+    margin: auto;
+
+}
+
+
+#side-bar p{
+    padding: 10px;
+}
+
+footer{
+    background-color: grey;
+    color:white;
+    text-align: center;
+    padding: 2px;
+}
+
+aside p{
+    background-color:green;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* DO NOT MODIFY THIS */
+@media(max-width: 600px) {
+    #main-content {
+        width: 100%;
+        float: none;
+    }
+
+    #side-bar {
+        width: 100%;
+        float: none;
+    }
+}
